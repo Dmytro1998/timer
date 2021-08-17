@@ -30,3 +30,14 @@ function countDown(){
 countDown()
 
 setInterval(countDown, 1000);
+
+// function validatePIN (pin) {
+//     let newPin = pin.match(/^(\d{4}|\d{6})$/gi)
+//     if( newPin == null){ 
+//     return false;
+//     }else {
+
+//      return true}}
+//     //return true or false
+  
+// console.log(validatePIN("0909"))
